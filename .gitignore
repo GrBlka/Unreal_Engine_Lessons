@@ -1,0 +1,36 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+# In Saved/ можно оставить Maps и Config вручную, но по умолчанию весь Saved лучше исключать
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Cache and logs
+*.log
+*.vs/
+.vs/
+
+# Build artifacts
+Build/
+*.VC.db
+*.VC.opendb
+
+# Mac / Linux
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project backups
+Backup/
